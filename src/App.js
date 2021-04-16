@@ -96,7 +96,8 @@ function App() {
                     <FontAwesomeIcon icon={faPlus} onClick={() => handleAddButtonClick()}/>
                 </div>
                 <div className='item-list'>
-                    {items.map((item, index) => (
+                    {items &&
+                    items.map((item, index) => (
                         <div className='item-container' key={index}>
                             <div className='item-name' onClick={() => toggleComplete(index)}>
                                 <div className='item-row'>
