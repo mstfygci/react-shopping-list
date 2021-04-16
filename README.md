@@ -1,4 +1,4 @@
-Open [Live Project](http://localhost:3000) to view it in the browser.
+Open [Live Project](https://mstfygci.github.io/react-shopping-list/) to view it in the browser.
 
 
 In the project directory, you can run:
