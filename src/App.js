@@ -64,7 +64,12 @@ function App() {
             quantity: 1,
             isSelected: false,
         };
-        const newItems = [...items, newItem];
+        let newItems = [];
+        if (items) {
+            newItems = [...items, newItem];
+        } else {
+            newItems = [newItem];
+        }
         setItems(newItems);
         setInputValue('');
         saveItems(newItems);
