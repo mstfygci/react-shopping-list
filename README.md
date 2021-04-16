@@ -1,3 +1,6 @@
+Open [Live Project](http://localhost:3000) to view it in the browser.
+
+
 In the project directory, you can run:
 
 ### `yarn install`
